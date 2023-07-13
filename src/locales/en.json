@@ -1,0 +1,4 @@
+{
+  "apples": "{{count}} apple",
+  "apples_plural": "{{count}} apples"
+}
