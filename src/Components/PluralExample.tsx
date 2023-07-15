@@ -11,8 +11,8 @@ const PluralExample: React.FC = () => {
   /* ****************************** Hooks & consts ***************************** */
   const { t } = useTranslation();
   const [count, setCount] = useState<number>(0);
-  const applesTranslation: string = t("apples", { count });
-  console.log(applesTranslation);
+  const bookPluralization: string = t("count", { count });
+
   /* ******************************** callBacks ******************************* */
   const handleIncrement = () => {
     setCount((prevCount) => prevCount + 1);
@@ -20,7 +20,7 @@ const PluralExample: React.FC = () => {
   /* ******************************** Rendering ******************************* */
   return (
     <div>
-      <p>{applesTranslation}</p>
+      <p>{bookPluralization}</p>
       <button onClick={handleIncrement}>click</button>
     </div>
   );

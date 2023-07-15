@@ -1,0 +1,5 @@
+{
+  "count_zero": "no books",
+  "count_one": "one book",
+  "count_other": "{{count}} books"
+}
